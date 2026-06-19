@@ -1,0 +1,8 @@
+# 般舟三昧經 · 八品彙整本 · GitHub Pages
+# 全面開放搜尋引擎索引
+
+User-agent: *
+Allow: /
+
+# Sitemap 位置（Search Console 與其他搜尋引擎會自動讀取）
+Sitemap: https://weiwen0925.github.io/pratyutpanna-samadhi-sutra/sitemap.xml
