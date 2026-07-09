@@ -1178,4 +1178,57 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-BZP6:END-->
+<!--WY-BZP7:BEGIN-->
+<style id="wy-bzp7-css">
+.bzp7-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
+.bzp7-fabbox.show{display:block;}
+.bzp7-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.bzp7-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
+.bzp7-ic{font-size:15px;line-height:1;color:#ecc978;}
+.bzp7-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.bzp7-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.bzp7-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
+.bzp7-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
+.bzp7-modal.open{display:flex;}
+.bzp7-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.bzp7-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
+.bzp7-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
+.bzp7-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.bzp7-close:hover{background:#e3d5b8;}
+.bzp7-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
+.bzp7-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#8b5e3c;font-size:14.5px;text-align:left;margin:.6em 0 .35em;line-height:1.5;}
+.bzp7-tbl th,.bzp7-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
+.bzp7-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
+.bzp7-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
+.bzp7-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
+.bzp7-tbl b{color:#8b2500;}
+.bzp7-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
+.bzp7-note b{color:#8b2500;}
+@media(max-width:900px){.bzp7-fabbox{right:14px;}.bzp7-tbl{font-size:11.5px;}.bzp7-card{padding:26px 14px 16px;}}
+</style>
+<div class="bzp7-fabbox" id="bzp7Box"><button class="bzp7-btn" id="bzp7Btn" type="button" aria-label="開啟全景總表"><span class="bzp7-ic">▦</span><span class="bzp7-ls"><span class="bzp7-l1">本品 · 四事助歡喜</span><span class="bzp7-l2">正使不得聞·加法轉減法·無所得</span></span></button></div><div class="bzp7-modal" id="bzp7Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="bzp7-card"><button class="bzp7-close" id="bzp7Close" type="button" aria-label="關閉">×</button><h3>般舟三昧經·第七品 勸助品第七 · 全景總表</h3><p class="sub">卷一·第七品｜三世諸佛共由之門·疾風珍寶量化對比·惟斯芩王本生緣起·正使不得聞其功德不可計·二諦緣起無所得三輪</p><table class="bzp7-tbl"><caption>一、佛陀四階論證模型（本品主骨架）</caption><thead><tr><th>階梯</th><th>內容</th></tr></thead><tbody><tr><td>階梯一·法則確立</td><td>過去佛、現在十方無央數佛、當來佛皆於是三昧中四事助歡喜得——三世諸佛共由之門，宣告「助歡喜」是啟動無上正等正覺的先決條件而非普通善行</td></tr><tr><td>階梯二·量化對比設定</td><td>人壽百歲行過於疾風不休息，寧有能計其道里不？獨佛弟子舍利弗羅阿惟越致菩薩乃能計之——設立遠超人類認知極限的不可計量度量</td></tr><tr><td>階梯三·物質極限vs實相無限</td><td>取是人所行處滿中珍寶布施，不如聞是三昧四事助歡喜，其福過布施者百千萬億倍——有為法（滿中珍寶布施）與無為法（一念助歡喜）之維度躍升而非數量比較</td></tr><tr><td>階梯三·歷史實證</td><td>惟斯芩王聞三昧助歡喜散寶發願令十方安隱，轉世作太子梵摩達承事師八千歲不休懈，却後更見六萬八千佛自致得佛——長劫因果實證一念隨喜之效力</td></tr><tr><td>階梯四·極致行動呼籲</td><td>若去百里千里有是三昧當求之，當承事其師十歲供養瞻視不得自用——空間考驗（求法距離）與時間考驗（十年不得自用）並舉，以身殉法</td></tr><tr><td>邏輯頂點</td><td>聞是三昧去四千里者往到其所，正使不得聞，其功德不可計也，所以者何？專精進故——修行價值不在抓到了什麼，而在放下了多少自我，無所得即是圓滿</td></tr></tbody></table><table class="bzp7-tbl"><caption>二、核心心法解碼與緣起流轉</caption><thead><tr><th>心法</th><th>內容</th></tr></thead><tbody><tr><td>心法一·純粹隨喜</td><td>世俗布施夾雜我相貪求福報，是封閉的交易循環；聞三昧一念法喜心智完全敞開與實相相應，本身即是與實相相應的三昧境界</td></tr><tr><td>心法二·大願矩陣</td><td>惟斯芩王自念持是功德令十方人民皆安隱——心量即是功德的邊界，當利他成為核心參數，功德計算便從有限算術級躍升為無限幾何級</td></tr><tr><td>緣起流轉圖</td><td>一念隨喜→聽法散寶發大願令十方安隱→轉世出家承事師八千歲不休懈→見六萬八千佛→自致得佛，一念歡喜如同種下成佛的幾何級數基因</td></tr><tr><td>心法三·過程即果地</td><td>起點有求的心（夾雜世俗安逸功利）→跋涉四千里粉碎貪戀與我執的過濾→終點無求無所得——求法腳步不為到達某地，而是讓能求的我與所求的法一同消解</td></tr><tr><td>心法維度躍遷</td><td>加法修行（執著累積福報計算功德）→減法修行（專精進於破除我執放下貪戀，安住無所得清淨法界）——行為轉變從布施到隨喜</td></tr></tbody></table><table class="bzp7-tbl"><caption>三、中論三輪交映與總體矩陣</caption><thead><tr><th>透視</th><th>內容</th></tr></thead><tbody><tr><td>透視一·二諦觀</td><td>疾風百歲與滿中珍寶布施雖是天文數字，仍屬世俗諦生滅有為法；四事助歡喜法喜是不生不滅無為法，兩者間百千萬億倍不是算術差距而是維度斷層</td></tr><tr><td>透視二·緣起論</td><td>以有空義故一切法得成——正因一念歡喜本質是空，才能在八千年時間軸上與無數因緣動態交互，最終結出成佛巨果；畢竟空與業果不滅是同一實相的雙紐線</td></tr><tr><td>透視三·無所得</td><td>諸法不可得滅一切戲論——正使不得聞打破最後一絲法執，能得之我與所得之法皆已消解，能所雙泯故功德從計算場域中釋放，不可計</td></tr><tr><td>破執圓滿方程式</td><td>求法的專精進－對結果的執著＝無所得→功德不可計——真正的精進是過程本身的絕對純粹，而非對目標的佔有</td></tr><tr><td>總體矩陣與典範轉移</td><td>疾風珍寶↔純粹隨喜↔二諦觀；八千歲承事↔大願矩陣↔緣起論；四千里求法正使不得聞↔過程即果地↔無所得——從凡夫加法（累積計算）到勸助品減法（剝落我相），數字愈大所該減去的我愈多</td></tr></tbody></table><p class="bzp7-note">勸助品第七以「疾風百歲滿中珍寶布施」與「一念助歡喜」的極端量化對比，把一念隨喜推上百千萬億倍的邏輯頂點，再以惟斯芩王八千歲承事、見六萬八千佛的本生因緣實證業果不滅；然而全品真正的哲學重量落在「<b>正使不得聞，其功德不可計也</b>」——這句反直覺的宣告，把修行的價值從「抓到了什麼」徹底翻轉為「放下了多少」。以龍樹《中論》二諦、緣起、無所得三輪交映觀之：疾風珍寶是世俗有為的極大值，四事助歡喜是勝義無為的維度躍升；八千歲承事印證「以有空義故，一切法得成」；求法不得則直契「諸法不可得，滅一切戲論」——加法的表象，減法的實質，正是般舟三昧最深的心法。</p></div></div>
+<script id="wy-bzp7-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("bzp7Btn"),BOX=document.getElementById("bzp7Box"),MODAL=document.getElementById("bzp7Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=6;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+var FSEL="#ytFab,.yt-fab,#vidFab,.vid-fab,#videoFab,#wyVideoBtn,#wyFab,#wy-fab,#vid-floating,#floatingYt,.video-fab,.wy-vbtn,.wy-video-fab,.floating-yt",_fab,_ft=false;
+function fab(){if(_fab&&_fab.isConnected)return _fab;if(_ft)return _fab;_ft=true;_fab=document.querySelector(FSEL);return _fab;}
+function place(){
+  var base=null,eb=document.querySelector(".wy-ebox");
+  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
+  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect(),st=getComputedStyle(fEl);if(fr.height>0&&st.display!=="none"&&st.visibility!=="hidden")base=Math.round(window.innerHeight-fr.top)+10;}}
+  if(base===null)base=78;
+  BOX.style.bottom=base+"px";
+}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="bzp7Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-BZP7:END-->
 </body></html>
