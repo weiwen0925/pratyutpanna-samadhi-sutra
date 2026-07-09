@@ -1019,4 +1019,57 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-BZP3:END-->
+<!--WY-BZP4:BEGIN-->
+<style id="wy-bzp4-css">
+.bzp4-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
+.bzp4-fabbox.show{display:block;}
+.bzp4-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.bzp4-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
+.bzp4-ic{font-size:15px;line-height:1;color:#ecc978;}
+.bzp4-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.bzp4-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.bzp4-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
+.bzp4-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
+.bzp4-modal.open{display:flex;}
+.bzp4-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.bzp4-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
+.bzp4-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
+.bzp4-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.bzp4-close:hover{background:#e3d5b8;}
+.bzp4-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
+.bzp4-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#8b5e3c;font-size:14.5px;text-align:left;margin:.6em 0 .35em;line-height:1.5;}
+.bzp4-tbl th,.bzp4-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
+.bzp4-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
+.bzp4-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
+.bzp4-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
+.bzp4-tbl b{color:#8b2500;}
+.bzp4-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
+.bzp4-note b{color:#8b2500;}
+@media(max-width:900px){.bzp4-fabbox{right:14px;}.bzp4-tbl{font-size:11.5px;}.bzp4-card{padding:26px 14px 16px;}}
+</style>
+<div class="bzp4-fabbox" id="bzp4Box"><button class="bzp4-btn" id="bzp4Btn" type="button" aria-label="開啟全景總表"><span class="bzp4-ic">▦</span><span class="bzp4-ls"><span class="bzp4-l1">本品 · 三喻入空知無</span><span class="bzp4-l2">沉船拒香估珠·十四字法眼·維度打擊</span></span></button></div><div class="bzp4-modal" id="bzp4Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="bzp4-card"><button class="bzp4-close" id="bzp4Close" type="button" aria-label="關閉">×</button><h3>般舟三昧經·第四品 譬喻品第四 · 全景總表</h3><p class="sub">卷上·第四品｜三重譬喻診斷矩陣·謗法業力拓樸·反呼世間為有不入空不知無·三輪體空維度打擊</p><table class="bzp4-tbl"><caption>一、三重譬喻的現象層診斷矩陣（本品主骨架）</caption><thead><tr><th>譬喻</th><th>核心隱喻／凡夫謬誤／認知盲區</th></tr></thead><tbody><tr><td>沉船失寶</td><td>法寶之「重」——閻浮利人（凡夫）悲憂世間財，諸天人民悲憂無為法，同名「悲憂」而所悲對象本體論上完全不同，錯失也</td></tr><tr><td>癡人拒香</td><td>法寶之「淨」——「其人閉目不嗅不視也」，以無明防衛機制主動切斷認識通道，將自身染污投射於客觀清淨，是為顛倒染淨，錯認也</td></tr><tr><td>盲農估珠</td><td>法寶之「用」——摩尼珠光所照直滿中寶（無限潛力），田家癡子以一頭牛（有限實用世俗標準）框架否定之，是為功利錯估，錯估也</td></tr><tr><td>共同病徵</td><td>以世俗實有標準否定超越性大法——哀財不哀法、畏淨呼不淨、以寶換劣牛，皆源於對「實有」的極度執取，終致「非佛所說」之荒謬結論</td></tr></tbody></table><table class="bzp4-tbl"><caption>二、病理學溯源與本體論核心法眼</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>謗法業力拓樸</td><td>過去世不供養作功德所更佛少→現在世自貢高貪財利欲求名譽→心理狀態嫉妒譁說→行為結果不信不樂不學誹謗深經→加深未來世無明，四階梯下行的惡性循環</td></tr><tr><td>信受者善根網絡</td><td>宿世悉於百佛所聞是三昧（深厚善根）→認知反應不輕笑不疑歡喜樂學→現世果報四面擁護無所畏→究竟果報自致得阿惟越致→菩薩行分布語人展轉相教，網絡式擴散</td></tr><tr><td>心理防衛與信息繭房</td><td>Ego對未知高階的恐懼——藉嘲諷懷疑輕戲否認維持世俗認知體系穩定；惡師與愚癡人構成信息繭房，內部高度互聯而對外屏蔽般舟真諦</td></tr><tr><td>十四字法眼</td><td>反呼世間為有，不入空、不知無——整品終極底層代碼，一切謗法錯估貪婪皆源於此本體論根本錯誤（自性見Svabhāva：誤將因緣假合萬法視為獨立單一常住的絕對實體）</td></tr><tr><td>入空知無</td><td>空非虛無而是無自性——萬法皆因緣條件之暫時集合；知無即了知世間價值（牛、世財）本無實體，方能放下執取契入般舟三昧無相境界</td></tr></tbody></table><table class="bzp4-tbl"><caption>三、絕對價值確立與維度打擊</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>終極思想實驗</td><td>一佛剎悉碎如塵、一塵皆復盡破、以此塵數佛剎滿中珍寶悉持供養諸佛——世間有為福報所能達到的邏輯極大值</td></tr><tr><td>數量vs維度</td><td>即使布施等同無數微塵佛剎珍寶，仍是有漏有為生滅的世間善業；有為福報無論累積多大，仍與無為功德不在同一維度，是層級之別非大小之別</td></tr><tr><td>維度打擊</td><td>不如聞是三昧須臾間聞，其功德不可復計——一念契入入空知無即跨越維度與無邊際法界實相直接相應，一念無為相應形如∞，有為福報極大值仍是有限</td></tr><tr><td>三輪體空</td><td>有為布施執著施者施物受者三輪實有故福報必有界限；無為契入則不見能施所施受者，心包太虛量等法界故不可計——是維度打擊得以成立的中觀邏輯基礎</td></tr><tr><td>絕對清淨大信</td><td>不輕笑、不誹謗、不疑、不乍信乍不信——四重否定構成大信入口篩網，放下對有的抓取以徹見空性之大信，是唯一直通勝義境界的接口</td></tr><tr><td>全景閉環偈頌</td><td>正使最後大恐懼，持是三昧無所畏——三昧是面對生死大怖、勝義超越時仍能心如不動的本體論根據，承當空與深經無畏便是自然的副產品</td></tr></tbody></table><p class="bzp4-note">譬喻品第四以沉船、拒香、估珠三度設喻，揭示凡夫俗諦與聖者真諦之間不可跨越的維度落差；十四字法眼「<b>反呼世間為有，不入空、不知無</b>」是全品終極底層代碼——自性見一起，貪瞋隨生，心如堅冰障蔽三昧。佛陀以無盡佛剎碎塵供養的思想實驗把有為法施推至邏輯極大值，仍宣告「不如聞是三昧須臾間聞」，以<b>三輪體空</b>的中觀邏輯證成無為功德的絕對超越——這不是數量的勝出，而是勝義諦對世俗諦的維度打擊。</p></div></div>
+<script id="wy-bzp4-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("bzp4Btn"),BOX=document.getElementById("bzp4Box"),MODAL=document.getElementById("bzp4Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=3;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+var FSEL="#ytFab,.yt-fab,#vidFab,.vid-fab,#videoFab,#wyVideoBtn,#wyFab,#wy-fab,#vid-floating,#floatingYt,.video-fab,.wy-vbtn,.wy-video-fab,.floating-yt",_fab,_ft=false;
+function fab(){if(_fab&&_fab.isConnected)return _fab;if(_ft)return _fab;_ft=true;_fab=document.querySelector(FSEL);return _fab;}
+function place(){
+  var base=null,eb=document.querySelector(".wy-ebox");
+  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
+  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect(),st=getComputedStyle(fEl);if(fr.height>0&&st.display!=="none"&&st.visibility!=="hidden")base=Math.round(window.innerHeight-fr.top)+10;}}
+  if(base===null)base=78;
+  BOX.style.bottom=base+"px";
+}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="bzp4Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-BZP4:END-->
 </body></html>
