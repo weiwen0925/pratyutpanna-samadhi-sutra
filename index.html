@@ -1073,4 +1073,57 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-BZP4:END-->
+<!--WY-BZP5:BEGIN-->
+<style id="wy-bzp5-css">
+.bzp5-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
+.bzp5-fabbox.show{display:block;}
+.bzp5-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.bzp5-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
+.bzp5-ic{font-size:15px;line-height:1;color:#ecc978;}
+.bzp5-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.bzp5-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.bzp5-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
+.bzp5-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
+.bzp5-modal.open{display:flex;}
+.bzp5-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.bzp5-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
+.bzp5-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
+.bzp5-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.bzp5-close:hover{background:#e3d5b8;}
+.bzp5-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
+.bzp5-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#8b5e3c;font-size:14.5px;text-align:left;margin:.6em 0 .35em;line-height:1.5;}
+.bzp5-tbl th,.bzp5-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
+.bzp5-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
+.bzp5-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
+.bzp5-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
+.bzp5-tbl b{color:#8b2500;}
+.bzp5-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
+.bzp5-note b{color:#8b2500;}
+@media(max-width:900px){.bzp5-fabbox{right:14px;}.bzp5-tbl{font-size:11.5px;}.bzp5-card{padding:26px 14px 16px;}}
+</style>
+<div class="bzp5-fabbox" id="bzp5Box"><button class="bzp5-btn" id="bzp5Btn" type="button" aria-label="開啟全景總表"><span class="bzp5-ic">▦</span><span class="bzp5-ls"><span class="bzp5-l1">本品 · 四眾隨類賦形</span><span class="bzp5-l2">求色即缺戒·三大絕對底線·由相入性</span></span></button></div><div class="bzp5-modal" id="bzp5Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="bzp5-card"><button class="bzp5-close" id="bzp5Close" type="button" aria-label="關閉">×</button><h3>般舟三昧經·第五品 四輩品第五 · 全景總表</h3><p class="sub">卷上·第五品｜三維叩問學持行·四眾差別戒律對照矩陣·缺戒求色心法·三大底線·三輪體空布施</p><table class="bzp5-tbl"><caption>一、三維叩問與四眾差別戒律對照矩陣（本品主骨架）</caption><thead><tr><th>眾別</th><th>核心誘惑／對應戒律／行為規範</th></tr></thead><tbody><tr><td>三維叩問</td><td>云何學（立心·確立無所得正見）→云何持（立行·嚴守四眾底線）→云何行（立用·世俗緣起中斷除習氣），三者同時運作缺一不可</td></tr><tr><td>比丘</td><td>核心誘惑：追求來世福報與現世安逸（求色·樂愛欲）；對應戒律：清淨持戒不得缺如毛髮；行為規範：常行乞食不受請，經行不得懈臥，怖畏地獄痛苦</td></tr><tr><td>比丘尼</td><td>核心誘惑：驕慢自高與嫉妬瞋恚；對應戒律：不得自高常當卑謙，棄婬怒癡；行為規範：不得貪好服飾珠環，除去瞋恚自高貴</td></tr><tr><td>居士（優婆塞）</td><td>核心誘惑：妻子恩愛與財富權力牽絆；對應戒律：持五戒令堅，常持八關齋於佛寺；行為規範：不得貪財產，布施已不念我自當得福</td></tr><tr><td>優婆夷</td><td>核心誘惑：迷信神鬼與情感色想；對應戒律：自歸命三寶，持五戒；行為規範：不得事餘道拜天祠鬼神視吉良日，不得慢恣有色想</td></tr></tbody></table><table class="bzp5-tbl"><caption>二、核心心法「求色即缺戒」與萬流歸宗三大底線</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>缺戒定義</td><td>云何為缺戒也？曰求色——其人意念我持戒自守使我後世生若作天若作遮迦越王，如是為樂愛欲，是為缺戒；持戒換果報之交易心理即是缺戒</td></tr><tr><td>動機斷層</td><td>世俗迴路：持戒→求生天／轉輪王→落入愛欲輪迴→缺戒；般舟心法：持戒→無所求（無所得心）→契入法界實相→具足。記憶口訣：有所求即落實有，落實有即非清淨戒</td></tr><tr><td>偈頌對稱結構</td><td>四段偈頌皆採破立雙軌：防非止惡（除去睡眠、瞋恚、慳貪、諛諂、自高、拜天祠祀）＋勤修善法（常獨處止、至誠、奉敬、承事善師、五戒、恭敬比丘僧），共同收束於「如是行者得三昧」</td></tr><tr><td>三大絕對底線</td><td>①絕對持戒清淨（不得缺如毛髮）②徹底斷除諂慢（破自我擴張與收縮）③絕對尊師重道（善知識視為法界載體）——跨越身份、貫穿全品、不容妥協</td></tr><tr><td>諂慢心理力場</td><td>傲慢（自高自大）是向上力場，阻斷法之流入；諂媚（有所求的討好）是向下力場，本質是隱蔽的貪求與不自信；唯有常行至誠立一信的中道能破除二極</td></tr></tbody></table><table class="bzp5-tbl"><caption>三、中觀濾鏡：二諦圓融、破自性見與三輪體空</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>二諦圓融修行天平</td><td>世俗諦（俗）——因緣條件不同嚴守差別戒律；勝義諦（真）——同歸般舟三昧萬法本性空寂；真俗不二，無俗諦之階梯無以躋勝義，執勝義而廢俗諦則落惡取空</td></tr><tr><td>破自性見邏輯鏈</td><td>求色（有所求）→預設實有的我與果報（主客體執著）→自性見（執著實有，中觀視角下的根本煩惱）→破自性見方能契入空性，即般舟三昧的本體</td></tr><tr><td>居士布施三輪體空</td><td>布施已不念我自當得其福，用為一切施——施者無我、受者無人、施物無相，三者皆因緣聚合之假相，唯有將功德無心迴向法界方能契入三昧</td></tr><tr><td>實踐全景架構</td><td>① 底盤·四眾差別戒律（世俗諦）→② 立柱·三大共通底線（持戒清淨、斷諂慢、尊師重道）→③ 橫樑·無所得心（核心心法·破求色破福相）→④ 圓頂·般舟三昧（勝義諦空性實相），層層上承</td></tr><tr><td>結論</td><td>由相入性，理事圓融——四輩之差別非為高下而為對治，三大底線非為威權而為斷我，無所得心非為斷滅而為契入；規範越精準森嚴，越能勘破自我虛妄</td></tr></tbody></table><p class="bzp5-note">四輩品第五以颰陀和「云何學、云何持、云何行」三維叩問開篇，佛陀依比丘、比丘尼、居士、優婆夷四眾各自最深的世俗誘惑，開立精準對治處方——此為<b>隨類賦形</b>的世俗諦個別對治。然而「云何為缺戒也？曰求色」一句，將持戒標準從行為合規拉昇至動機純淨的本體論高度，揭示四眾雖各得不同戒律，其底層對治邏輯完全相同：破我相、無所得心。全品終歸<b>萬流歸宗</b>的勝義底盤——持戒清淨、斷除諂慢、尊師重道三大絕對底線，正是二諦圓融、破自性見、三輪體空的具體實踐，由相入性，理事圓融。</p></div></div>
+<script id="wy-bzp5-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("bzp5Btn"),BOX=document.getElementById("bzp5Box"),MODAL=document.getElementById("bzp5Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=4;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+var FSEL="#ytFab,.yt-fab,#vidFab,.vid-fab,#videoFab,#wyVideoBtn,#wyFab,#wy-fab,#vid-floating,#floatingYt,.video-fab,.wy-vbtn,.wy-video-fab,.floating-yt",_fab,_ft=false;
+function fab(){if(_fab&&_fab.isConnected)return _fab;if(_ft)return _fab;_ft=true;_fab=document.querySelector(FSEL);return _fab;}
+function place(){
+  var base=null,eb=document.querySelector(".wy-ebox");
+  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
+  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect(),st=getComputedStyle(fEl);if(fr.height>0&&st.display!=="none"&&st.visibility!=="hidden")base=Math.round(window.innerHeight-fr.top)+10;}}
+  if(base===null)base=78;
+  BOX.style.bottom=base+"px";
+}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="bzp5Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-BZP5:END-->
 </body></html>
