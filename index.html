@@ -914,4 +914,57 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-BZP1:END-->
+<!--WY-BZP2:BEGIN-->
+<style id="wy-bzp2-css">
+.bzp2-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
+.bzp2-fabbox.show{display:block;}
+.bzp2-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.bzp2-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
+.bzp2-ic{font-size:15px;line-height:1;color:#ecc978;}
+.bzp2-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.bzp2-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.bzp2-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
+.bzp2-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
+.bzp2-modal.open{display:flex;}
+.bzp2-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.bzp2-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
+.bzp2-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
+.bzp2-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.bzp2-close:hover{background:#e3d5b8;}
+.bzp2-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
+.bzp2-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#8b5e3c;font-size:14.5px;text-align:left;margin:.6em 0 .35em;line-height:1.5;}
+.bzp2-tbl th,.bzp2-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
+.bzp2-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
+.bzp2-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
+.bzp2-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
+.bzp2-tbl b{color:#8b2500;}
+.bzp2-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
+.bzp2-note b{color:#8b2500;}
+@media(max-width:900px){.bzp2-fabbox{right:14px;}.bzp2-tbl{font-size:11.5px;}.bzp2-card{padding:26px 14px 16px;}}
+</style>
+<div class="bzp2-fabbox" id="bzp2Box"><button class="bzp2-btn" id="bzp2Btn" type="button" aria-label="開啟全景總表"><span class="bzp2-ic">▦</span><span class="bzp2-ls"><span class="bzp2-l1">本品 · 幾何解構·四重次第</span><span class="bzp2-l2">勿念清單·八不對應·無心是涅槃</span></span></button></div><div class="bzp2-modal" id="bzp2Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="bzp2-card"><button class="bzp2-close" id="bzp2Close" type="button" aria-label="關閉">×</button><h3>般舟三昧經·第二品 行品第二 · 全景總表</h3><p class="sub">卷一·第二品｜漏斗狀四重次第·物理意識雙重隔離·勿念清單五層對立·明鏡不來不去·心佛同體</p><table class="bzp2-tbl"><caption>一、修證四重次第漏斗（本品主骨架）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>總命題</td><td>行品外觀是百餘條「勿念」禁制清單，內裡實為由有為到無為的漏斗狀收攝路徑——四重次第緊密相扣，最終送達「不來不去」與「無心是涅槃」</td></tr><tr><td>第一重·打造法器</td><td>避惡人絕婬色、行無為斷諸欲——物理與社交的絕對隔離，把行者從世俗系統性干擾源中拔除</td></tr><tr><td>第二重·破除二邊</td><td>立一念斷諸想，八十餘句「勿念」窮盡一切戲論對待，斬斷有無、生死、苦樂、得失等二元對立</td></tr><tr><td>第三重·事相現前</td><td>念西方阿彌陀佛、一日一夜若七日七夜，時空在定境中凝縮，諸佛悉在前立</td></tr><tr><td>第四重·理體透徹</td><td>明鏡見影、影不從中出亦不從外入，印證不來不去，心作佛心自見，心是佛心佛心是我身</td></tr><tr><td>究竟歸處</td><td>心起想則癡，無心是涅槃——連「定境見佛」與「空性」本身的執著亦須放下（是法無可樂者，設使念為空耳，無所有也）</td></tr></tbody></table><table class="bzp2-tbl"><caption>二、物社隔離矩陣與勿念清單五層架構</caption><thead><tr><th>項目</th><th>內容</th></tr></thead><tbody><tr><td>物理排拒</td><td>常獨處勿聚會、避鄉里遠親族、絕婬色——把行者的物理位置推至無人可遇、無地可歸、無欲可逐的淨地</td></tr><tr><td>意識排拒</td><td>除睡眠捨亂意、勿調戲勿憍慢、去六入——把「念」收攝到只剩單點，是「立一念」的前置條件</td></tr><tr><td>物理親近</td><td>食知足衣如法、親明師視如佛——身體需求最低充足，外緣收束至唯一可信賴的善知識</td></tr><tr><td>意識親近</td><td>執其志常柔弱、觀平等於一切、加慈哀——意志的堅韌＋非競爭性接納＋對眾生的內在連結</td></tr><tr><td>勿念五層</td><td>本體論（有無空實生死）、時空觀（前後左右遠近）、感知覺（痛痒飢渴寒熱）、價值觀（貴賤貧富善惡）、法執障（經法斷著得失）——五層窮盡意識中一切二元對立結構</td></tr><tr><td>本體預設</td><td>了身本猶如幻、陰如賊四如蛇、因緣會因緣散悉了是知本無——五蘊四大如賊如蛇，是「勿念清單」得以安立的緣起性空基礎</td></tr></tbody></table><table class="bzp2-tbl"><caption>三、事相現前、理體透徹與中觀對稱矩陣</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>時空凝縮</td><td>一日一夜若七日七夜過七日已後見之——諸大山須彌山幽冥之處悉為開闢無所蔽礙，空間阻礙在定境臨界點自動消解</td></tr><tr><td>不依神通</td><td>不持天眼徹視、不持天耳徹聽、不持神足到其佛剎——所見之佛是持佛力三昧力本功德力三力共振所引發的唯心現象，非傳統神通</td></tr><tr><td>明鏡光學模型</td><td>鏡麻油淨水水精，介質清淨對應行者意識清淨（色清淨故所有者清淨）——心鏡擦淨方能映佛，這是一至三重次第的全部功能</td></tr><tr><td>不來不去印證</td><td>影不從中出，亦不從外入——完美契合中論不來不去；佛無所從來，我亦無所至，緣起如幻的顯現是世俗假有，其本體是勝義畢竟空</td></tr><tr><td>心佛雙環</td><td>心作佛，心自見，心是佛心，佛心是我身——能觀與所觀邊界消解，三界皆是三處意所作耳，沒有外在的佛只有自心清淨的投射</td></tr><tr><td>修證中觀對稱矩陣</td><td>勿念清單斷諸想↔八不破二邊；陰如賊四如蛇觀身如幻↔緣起性空；明鏡見影名夢婬女不來不去↔世俗假有與勝義畢竟空；心作佛佛心是我身萬法唯心↔戲論寂滅</td></tr></tbody></table><p class="bzp2-note">行品第二以「幾何解構」四重次第——打造法器、破除二邊、事相現前、理體透徹——把百餘條勿念清單還原為<b>從有為到無為的漏斗</b>。第二重勿念清單與龍樹八不中道（不生不滅、不斷不常、不一不異、不來不去）在邏輯上是同一個動作的行門與理門展開；第四重明鏡照影「影不從中出，亦不從外入」，正是中觀「不來不去」最早的經證式操作。全品終於「心者不自知，有心不見心；心起想則癡，無心是涅槃」——連「空」的概念本身亦須放下，這正是戲論寂滅的最終形式，也是中觀哲學在念佛三昧中的完整實現。</p></div></div>
+<script id="wy-bzp2-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("bzp2Btn"),BOX=document.getElementById("bzp2Box"),MODAL=document.getElementById("bzp2Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=1;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+var FSEL="#ytFab,.yt-fab,#vidFab,.vid-fab,#videoFab,#wyVideoBtn,#wyFab,#wy-fab,#vid-floating,#floatingYt,.video-fab,.wy-vbtn,.wy-video-fab,.floating-yt",_fab,_ft=false;
+function fab(){if(_fab&&_fab.isConnected)return _fab;if(_ft)return _fab;_ft=true;_fab=document.querySelector(FSEL);return _fab;}
+function place(){
+  var base=null,eb=document.querySelector(".wy-ebox");
+  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
+  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect(),st=getComputedStyle(fEl);if(fr.height>0&&st.display!=="none"&&st.visibility!=="hidden")base=Math.round(window.innerHeight-fr.top)+10;}}
+  if(base===null)base=78;
+  BOX.style.bottom=base+"px";
+}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="bzp2Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-BZP2:END-->
 </body></html>
