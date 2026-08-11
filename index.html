@@ -741,7 +741,7 @@ window.addEventListener('resize', function(){
 function gotoDeepAnchor(rawHash){
   if(!rawHash) return false;
   var hash = rawHash.charAt(0) === '#' ? rawHash.slice(1) : rawHash;
-  var m = /^chapter-(\d+)(?:-(\d+))?(?:-(\d+))?$/.exec(hash);
+  var m = /^chapter-(\d+)(?:-(\d+))?(?:-(\d+))?(-fn)?$/.exec(hash);
   if(!m) return false;
   var N = m[1], M = m[2], K = m[3];
   var sec = document.getElementById('ch-' + N);
@@ -756,7 +756,7 @@ function gotoDeepAnchor(rawHash){
   // 跳到品內具體章/節：請 iframe postMessage 回報目標座標
   var iframe = document.getElementById('frame-' + N);
   if(!iframe) return false;
-  var targetId = 'chapter-' + N + '-' + M + (K ? '-' + K : '');
+  var targetId = 'chapter-' + N + '-' + M + (K ? '-' + K : '') + (m[4] || '');
   function ask(){
     try{
       iframe.contentWindow.postMessage(
