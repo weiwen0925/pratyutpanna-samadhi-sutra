@@ -2200,7 +2200,21 @@ setInterval(function(){
 },1500);
 function boot(){ui();paint();}
 if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",boot);else boot();
-}catch(e){}})();</script><!--/WY-BSEEN--><!--WY-BLQ--><style id="wy-blq-css">
+}catch(e){}})();</script><!--/WY-BSEEN--><!--WY-BQLINK--><script>(function(){ /* WY-BQLINK v1 */
+var R="pratyutpanna-samadhi-sutra";
+function prep(h){var m=/^#blq-(\d+)$/.exec(h||"");if(!m)return 0;var n=parseInt(m[1],10);if(n<1||n>8)return 0;
+ try{localStorage.setItem("wyQuestOn:"+R,"1");var st={},sk={};
+  try{st=JSON.parse(localStorage.getItem("wyQuest:"+R)||"{}")}catch(e){}
+  try{sk=JSON.parse(localStorage.getItem("wyQuestSkip:"+R)||"{}")}catch(e){}
+  for(var k=1;k<n;k++){if(!st[k])sk[k]=1;}
+  localStorage.setItem("wyQuestSkip:"+R,JSON.stringify(sk));}catch(e){}
+ return n;}
+var n=prep(location.hash);
+function show(){var c=document.querySelector('.blq[data-p="'+n+'"]');if(c){c.open=true;c.scrollIntoView({block:"start"});}}
+if(n){window.addEventListener("load",function(){setTimeout(show,900);setTimeout(show,2500);setTimeout(show,5000);});}
+window.addEventListener("hashchange",function(){if(prep(location.hash))location.reload();});
+})();</script><!--/WY-BQLINK-->
+<!--WY-BLQ--><style id="wy-blq-css">
 .blq{margin:30px auto 12px;max-width:900px;border:1px solid #c9a84c;border-left:5px solid #8B2500;
   border-radius:10px;background:#fffdf7;font-family:'Noto Sans TC',sans-serif;
   box-shadow:0 1px 6px rgba(91,58,41,.08);}
